@@ -1,9 +1,6 @@
 #servier port
 server
   port:8766
-eureka:
-  instance:
-    hostname: localhost
-  client:
-     register-with-eureka: false
-    fetch-registry: false
+
+message
+  hello-eng:sandeep
