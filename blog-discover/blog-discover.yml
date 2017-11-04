@@ -2,6 +2,7 @@
 server
   port:8766
 
+
 # Defines the Eureka server that is used by the Netflix OSS components to use as the registry for server discovery
 eureka:
   instance:
@@ -10,4 +11,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ 
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
